@@ -1,3 +1,6 @@
+const { count } = require('../../data/db-config');
+const db = require('../../data/db-config');
+
 function find() { // EXERCISE A
   /*
     1A- Study the SQL query below running it in SQLite Studio against `data/schemes.db3`.
