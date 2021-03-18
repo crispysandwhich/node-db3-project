@@ -12,6 +12,7 @@ const checkSchemeId = async (req, res, next) => {
   try{
 
     const schema = await Schema.findById(req.params.id)
+    
     if(schema){
       req.schema = schema;
       next(next)
